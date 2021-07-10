@@ -1,0 +1,5 @@
+set projectLocation=C:\Users\irani\OneDrive - Hitachi Consulting\Desktop\ACA_COBRA\PCDP\testing\selenium\eclipse java\eclipse workspace\dataDrivenFramework
+cd %projectLocation%
+set classpath=%projectLocation%\bin;%projectLocation%\lib\*
+java org.testng.TestNG C:\Users\irani\OneDrive - Hitachi Consulting\Desktop\ACA_COBRA\PCDP\testing\selenium\eclipse java\eclipse workspace\dataDrivenFramework\src\test\resources\runner\testng.xml
+pause
